@@ -5,7 +5,7 @@
 _NOTE:_ the directory containing all files (i.e. package.xml etc) must be called vrep_ros_interface, otherwise build will fail.
 
 1. Install required packages for [v_repStubsGen](https://github.com/CoppeliaRobotics/v_repStubsGen): see v_repStubsGen's [README](external/v_repStubsGen/README.md)
-2. Checkout
+2. Open the src directory in your catkin workspace and clone the following repository:
 ```
 $ git clone --recursive https://github.com/CoppeliaRobotics/v_repExtRosInterface.git vrep_ros_interface
 ```
