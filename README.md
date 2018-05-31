@@ -20,7 +20,7 @@ export VREP_ROOT="/path_of_vrep_folder"
 add_message_files(FILES your_msg.msg)
 ```
 
-5. Edit `meta/messages.txt` and `meta/services.txt` if you need to include more ROS messages/services. You need to specify the full message/service type, i.e. geometry_msgs/Twist rather than Twist.
+5. Edit `meta/messages.txt` and `meta/services.txt` if you need to include ROS messages/services in V-REP enivironment. You need to specify the full message/service type, i.e. geometry_msgs/Twist rather than Twist.
 
 6. Compile
 ```
