@@ -149,5 +149,3 @@ visualization_msgs/InteractiveMarkerUpdate
 visualization_msgs/Marker
 visualization_msgs/MarkerArray
 visualization_msgs/MenuEntry
-vrep_ros_interface/PidTune
-vrep_ros_interface/testing
