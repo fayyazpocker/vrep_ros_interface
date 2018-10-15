@@ -1,6 +1,5 @@
 # ROS Interface plugin for V-REP
 
-### Compiling
 
 1. Make sure you have set your V_REP ROOT, if not open your bashrc file and add the following code
 ```
