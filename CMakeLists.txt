@@ -8,7 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp rosmsg image_transport tf cv_bridge std_msgs message_generation
 )
 
-add_message_files(FILES PidTune.msg testing.msg)
+add_message_files(FILES testing.msg)
 generate_messages(DEPENDENCIES std_msgs)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules/")
