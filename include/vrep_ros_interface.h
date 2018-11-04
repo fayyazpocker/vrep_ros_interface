@@ -12,6 +12,8 @@
 #include <ros/ros.h>
 #include <image_transport/image_transport.h>
 
+#include "config.h"
+
 #define PLUGIN_NAME "RosInterface"
 #define PLUGIN_VERSION 5
 

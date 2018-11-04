@@ -1,4 +1,6 @@
 dynamic_reconfigure/Reconfigure
+plutodrone/PlutoPilot
+model_drone/PlutoPilot
 roscpp/Empty
 roscpp/GetLoggers
 roscpp/SetLoggerLevel

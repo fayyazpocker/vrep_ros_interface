@@ -1,3 +1,5 @@
+aruco_msgs/Marker
+aruco_msgs/MarkerArray
 control_msgs/JointControllerState
 control_msgs/JointTolerance
 diagnostic_msgs/DiagnosticArray
@@ -63,6 +65,7 @@ nav_msgs/MapMetaData
 nav_msgs/OccupancyGrid
 nav_msgs/Odometry
 nav_msgs/Path
+plutodrone/PlutoMsg
 roscpp/Logger
 rosgraph_msgs/Clock
 rosgraph_msgs/Log
@@ -149,7 +152,3 @@ visualization_msgs/InteractiveMarkerUpdate
 visualization_msgs/Marker
 visualization_msgs/MarkerArray
 visualization_msgs/MenuEntry
-vrep_ros_interface/testing
-aruco_msgs/Marker
-aruco_msgs/MarkerArray
-plutodrone/PlutoMsg

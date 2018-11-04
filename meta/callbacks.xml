@@ -5,6 +5,9 @@
     <description>This plugin provides an interface with the ROS API</description>
     <command name="subscribe">
         <description>Subscribe to a topic.</description>
+        <categories>
+            <category name="topic" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -30,6 +33,9 @@
     </command>
     <command name="shutdownSubscriber">
         <description>Unsubscribe the callback associated with this subscriber.</description>
+        <categories>
+            <category name="topic" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -43,6 +49,9 @@
     </command>
     <command name="subscriberTreatUInt8ArrayAsString">
         <description>After calling this function, this subscriber will treat uint8 arrays as string. Using strings should be in general much faster that using int arrays in Lua.</description>
+        <categories>
+            <category name="topic" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -56,6 +65,9 @@
     </command>
     <command name="advertise">
         <description>Advertise a topic and create a topic publisher.</description>
+        <categories>
+            <category name="topic" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -81,6 +93,9 @@
     </command>
     <command name="shutdownPublisher">
         <description>Shutdown the advertisement associated with this publisher.</description>
+        <categories>
+            <category name="topic" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -94,6 +109,9 @@
     </command>
     <command name="publisherTreatUInt8ArrayAsString">
         <description>After calling this function, this publisher will treat uint8 arrays as string. Using strings should be in general much faster that using int arrays in Lua.</description>
+        <categories>
+            <category name="topic" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -107,6 +125,9 @@
     </command>
     <command name="publish">
         <description>Publish a message on the topic associated with this publisher.</description>
+        <categories>
+            <category name="topic" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -126,6 +147,9 @@
     </command>
     <command name="serviceClient">
         <description>Create a service client.</description>
+        <categories>
+            <category name="service" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -145,6 +169,9 @@
     </command>
     <command name="shutdownServiceClient">
         <description>Shutdown the service client.</description>
+        <categories>
+            <category name="service" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -158,6 +185,9 @@
     </command>
     <command name="serviceClientTreatUInt8ArrayAsString">
         <description>After calling this function, this service client will treat uint8 arrays as string. Using strings should be in general much faster that using int arrays in Lua.</description>
+        <categories>
+            <category name="service" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -171,6 +201,9 @@
     </command>
     <command name="call">
         <description>Call the service associated with this service client.</description>
+        <categories>
+            <category name="service" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -193,6 +226,9 @@
     </command>
     <command name="advertiseService">
         <description>Advertise a service and create a service server.</description>
+        <categories>
+            <category name="service" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -215,6 +251,9 @@
     </command>
     <command name="shutdownServiceServer">
         <description>Shutdown the service server.</description>
+        <categories>
+            <category name="service" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -228,6 +267,9 @@
     </command>
     <command name="serviceServerTreatUInt8ArrayAsString">
         <description>After calling this function, this service server will treat uint8 arrays as string. Using strings should be in general much faster that using int arrays in Lua.</description>
+        <categories>
+            <category name="service" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -241,6 +283,10 @@
     </command>
     <command name="sendTransform">
         <description>Publish a TF transformation between frames.</description>
+        <categories>
+            <category name="topic" />
+            <category name="tf" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -254,6 +300,10 @@
     </command>
     <command name="sendTransforms">
         <description>Publish several TF transformations between frames.</description>
+        <categories>
+            <category name="topic" />
+            <category name="tf" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -267,6 +317,10 @@
     </command>
     <command name="imageTransportSubscribe">
         <description>Subscribe to a topic using ImageTransport.</description>
+        <categories>
+            <category name="topic" />
+            <category name="image" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -289,6 +343,10 @@
     </command>
     <command name="imageTransportShutdownSubscriber">
         <description>Unsubscribe the callback associated with this subscriber using ImageTransport.</description>
+        <categories>
+            <category name="topic" />
+            <category name="image" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -302,6 +360,10 @@
     </command>
     <command name="imageTransportAdvertise">
         <description>Advertise a topic and create a topic publisher using ImageTransport.</description>
+        <categories>
+            <category name="topic" />
+            <category name="image" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -321,6 +383,10 @@
     </command>
     <command name="imageTransportShutdownPublisher">
         <description>Shutdown the advertisement associated with this publisher using ImageTransport.</description>
+        <categories>
+            <category name="topic" />
+            <category name="image" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -334,6 +400,10 @@
     </command>
     <command name="imageTransportPublish">
         <description>Publish a message on the topic associated with this publisher using ImageTransport.</description>
+        <categories>
+            <category name="topic" />
+            <category name="image" />
+        </categories>
         <see-also>
             <!--command name="..." /-->
         </see-also>
@@ -359,6 +429,9 @@
     </command>
     <command name="getTime">
         <description>Return the current ROS time (i.e. the time returned by ros::Time::now()).</description>
+        <categories>
+            <category name="time" />
+        </categories>
         <params>
             <param name="flag" type="int" default="0">
                 <description>unused: set to zero</description>
@@ -372,6 +445,9 @@
     </command>
     <command name="getParamString">
         <description>Retrieve a string parameter from the ROS Parameter Server.</description>
+        <categories>
+            <category name="param" />
+        </categories>
         <params>
             <param name="name" type="string">
                 <description>name of the parameter</description>
@@ -391,6 +467,9 @@
     </command>
     <command name="getParamInt">
         <description>Retrieve an integer parameter from the ROS Parameter Server.</description>
+        <categories>
+            <category name="param" />
+        </categories>
         <params>
             <param name="name" type="string">
                 <description>name of the parameter</description>
@@ -410,6 +489,9 @@
     </command>
     <command name="getParamDouble">
         <description>Retrieve a double parameter from the ROS Parameter Server.</description>
+        <categories>
+            <category name="param" />
+        </categories>
         <params>
             <param name="name" type="string">
                 <description>name of the parameter</description>
@@ -429,6 +511,9 @@
     </command>
     <command name="getParamBool">
         <description>Retrieve a boolean parameter from the ROS Parameter Server.</description>
+        <categories>
+            <category name="param" />
+        </categories>
         <params>
             <param name="name" type="string">
                 <description>name of the parameter</description>
@@ -448,6 +533,9 @@
     </command>
     <command name="setParamString">
         <description>Set a string parameter in the ROS Parameter Server.</description>
+        <categories>
+            <category name="param" />
+        </categories>
         <params>
             <param name="name" type="string">
                 <description>name of the parameter</description>
@@ -461,6 +549,9 @@
     </command>
     <command name="setParamInt">
         <description>Set a integer parameter in the ROS Parameter Server.</description>
+        <categories>
+            <category name="param" />
+        </categories>
         <params>
             <param name="name" type="string">
                 <description>name of the parameter</description>
@@ -474,6 +565,9 @@
     </command>
     <command name="setParamDouble">
         <description>Set a double parameter in the ROS Parameter Server.</description>
+        <categories>
+            <category name="param" />
+        </categories>
         <params>
             <param name="name" type="string">
                 <description>name of the parameter</description>
@@ -487,6 +581,9 @@
     </command>
     <command name="setParamBool">
         <description>Set a boolean parameter in the ROS Parameter Server.</description>
+        <categories>
+            <category name="param" />
+        </categories>
         <params>
             <param name="name" type="string">
                 <description>name of the parameter</description>
@@ -500,6 +597,9 @@
     </command>
     <command name="hasParam">
         <description>Check wether a parameter exists in the ROS Parameter Server.</description>
+        <categories>
+            <category name="param" />
+        </categories>
         <params>
             <param name="name" type="string">
                 <description>name of the parameter</description>
@@ -513,6 +613,9 @@
     </command>
     <command name="deleteParam">
         <description>Delete a parameter in the ROS Parameter Server.</description>
+        <categories>
+            <category name="param" />
+        </categories>
         <params>
             <param name="name" type="string">
                 <description>name of the parameter</description>
@@ -523,6 +626,9 @@
     </command>
     <command name="searchParam">
         <description>Search a parameter in the ROS Parameter Server, looking in the closest namespace.</description>
+        <categories>
+            <category name="param" />
+        </categories>
         <params>
             <param name="name" type="string">
                 <description>name of the parameter</description>
