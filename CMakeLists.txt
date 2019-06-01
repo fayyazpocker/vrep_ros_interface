@@ -17,9 +17,9 @@ set(PKG_DEPS
     cv_bridge
     image_transport
     tf
-    brics_actuator
+#     brics_actuator
     roslib
-    brics_actuator
+#     brics_actuator
     actionlib_msgs
     control_msgs
     diagnostic_msgs
@@ -27,13 +27,13 @@ set(PKG_DEPS
     map_msgs
     nav_msgs
     pcl_msgs
-    plutodrone
+#     plutodrone
     sensor_msgs
     shape_msgs
     std_msgs
     tf2_geometry_msgs
     tf2_msgs
-    tf2_sensor_msgs
+#     tf2_sensor_msgs
     trajectory_msgs
     visualization_msgs)
 

@@ -65,7 +65,6 @@ nav_msgs/MapMetaData
 nav_msgs/OccupancyGrid
 nav_msgs/Odometry
 nav_msgs/Path
-plutodrone/PlutoMsg
 roscpp/Logger
 rosgraph_msgs/Clock
 rosgraph_msgs/Log
